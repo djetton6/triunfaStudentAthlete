@@ -9,7 +9,6 @@ body {
 }
 
 #home-section {
-  background: url(../img/student_hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -21,7 +20,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 700px;
+  min-height: 723px;
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -46,4 +45,10 @@ body {
   color: white;
   padding: 5px;
   border-radius: 5px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
