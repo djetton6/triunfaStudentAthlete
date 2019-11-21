@@ -301,19 +301,20 @@
         </div>
       </div>
     </section>
-    <!-- Explore Section with Data -->
-    <section id="explore-section" class="bg-light text-muted py-5">
+    <!-- Share Section -->
+    <section id="share-section" class="bg-light text-muted py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <!-- mb-margin bottom of 3 and rounded -->
             <img
-              src="img/student_ath_otherside.jpg"
+              src="img/student_athlete_temple.jpg"
               alt="studying athlete"
               class="img-fluid mb-3 rounded-circle"
             />
           </div>
           <div class="col-md-6">
+            <h3>Share With Your Friends</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
               quam aperiam ducimus vitae. Nihil, dignissimos? Velit placeat,
@@ -347,6 +348,53 @@
       </div>
     </section>
 
+    <!-- Footer  -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>StudentAthleticClub</h3>
+            <p>Copyright &copy; <span id="year"></span></p>
+            <button
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade text-dark">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control">
+                      
+                    </textarea>
+                  </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/386fbae994.js"
       crossorigin="anonymous"
