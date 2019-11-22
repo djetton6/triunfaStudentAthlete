@@ -16,9 +16,10 @@ body {
 }
 
 #myVideo {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
+  width: 100%;
   min-width: 100%;
 }
 
@@ -26,10 +27,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  align-self: ;
+  bottom: 50;
   width: 100%;
-  /* min-height: 10vh; */
+  min-width: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
 
