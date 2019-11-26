@@ -1,9 +1,12 @@
-###Triunfa Landing Page
+### Triunfa Landing Page
 A social network for student athletes.
 
 
-###License
-MIT
+### Installing
+This should be an easy install, as there is minimal javascript or any other build tools needed. The Bootstrap CDN is contained in the fie.
 
-###About
-thoughtbot
+
+### License
+MIT License
+
+
